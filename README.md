@@ -2,7 +2,7 @@
 
 With running spaCy in the back this API provides tokenization for English, French, German, Spanish and Portuguese. 
 
-The endpoint accepts POST request with JSON; the user can either provide the language of the text in the form:
+The [endpoint](https://tokenizer-citibeats.herokuapp.com/tokenizer) accepts POST request with JSON; the user can either provide the language of the text in the form:
 
 { 
 "lang": "en",
@@ -17,7 +17,7 @@ or have the endpoint detect the language itself. Then the request body can be si
 }
 
 
-Klick [here](https://apps.apple.com/us/app/testflight/id899247664) to get to the interactive FastApi docs to try out the endpoint without Postmen et al. 
+Klick [here](https://tokenizer-citibeats.herokuapp.com/docs) to get to the interactive FastApi docs to try out the endpoint without Postmen et al. 
 
 ## To run the API locally follow these steps
 

@@ -23,6 +23,6 @@ thinc==7.4.4
 tqdm==4.54.1
 typing-extensions==3.7.4.3
 urllib3==1.26.2
-uvicorn==0.13.1
+uvicorn==0.11.5
 wasabi==0.8.0
 zipp==3.4.0
