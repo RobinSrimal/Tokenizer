@@ -1,4 +1,4 @@
-#### Tokenizer
+# Tokenizer
 
 With running spaCy in the back this API provides tokenization for English, French, German, Spanish and Portuguese. 
 
@@ -9,11 +9,13 @@ The endpoint accepts POST request with JSON; the user can either provide the lan
 "text": "whatever text you want to get tokenized
 }
 
+
 or have the endpoint detect the language itself. Then the request body can be simply:
 
 {
 "text": "I guess the endpoint will have to figure out what language this is"
 }
+
 
 Klick [here](https://apps.apple.com/us/app/testflight/id899247664) to get to the interactive FastApi docs to try out the endpoint without Postmen et al. 
 
