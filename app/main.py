@@ -28,9 +28,3 @@ async def feature(item: ToBeTokenized):
         tokenizer = Tokenizer(detect_language=True)
         tokens = tokenizer.do(item["text"])
         return tokens
-
-
-
-
-
-
