@@ -1,9 +1,8 @@
 from fastapi import FastAPI
 from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel
-from tokenizer import Tokenizer
 from typing import Optional
-
+from app.tokenizer import Tokenizer 
 
 class ToBeTokenized(BaseModel):
     text: str
@@ -28,3 +27,5 @@ async def feature(item: ToBeTokenized):
         tokenizer = Tokenizer(detect_language=True)
         tokens = tokenizer.do(item["text"])
         return tokens
+
+

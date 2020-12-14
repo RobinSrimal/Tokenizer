@@ -108,7 +108,7 @@ class Tokenizer:
             if self.language in ["en","fr","de","es","pt"]:
 
                 tokens = self.get_tokens(text)
-                return {"lang": self.language, "tokens": tokens}
+                return {"tokens": tokens}
 
             else: 
                 return {"error": "provided language is not supported"}
