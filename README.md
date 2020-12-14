@@ -1,4 +1,4 @@
-#### Tokenizer
+# Tokenizer
 
 With running spaCy in the back this API provides tokenization for English, French, German, Spanish and Portuguese. 
 
