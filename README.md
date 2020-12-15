@@ -37,6 +37,10 @@ go to the app folder, then:
 
 > uvicorn main:app --reload
 
+step 5: visit localhost 
+
+> under http://127.0.0.1:8000/docs#/
+
 ## Dockerization 
 
 To create an image:
