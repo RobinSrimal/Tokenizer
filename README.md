@@ -17,7 +17,7 @@ or have the endpoint detect the language itself. Then the request body can be si
 }
 
 
-Klick [here](https://tokenizer-citibeats.herokuapp.com/docs) to get to the interactive FastApi docs to try out the endpoint without Postmen et al. 
+Klick [here](https://tokenizer-citibeats.herokuapp.com/docs) to get to the interactive FastApi docs to try out the endpoint without Postman et al. 
 
 Please note that there might be issues with the endpoints when using Firefox. As of 15.12.2020 Google Chrome works fine. 
 
